@@ -1,0 +1,145 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    margin:auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+div.general{
+   padding-top: 12%;
+}
+
+input{
+    font-size: 18px;
+    width: 400px;
+}
+
+input[type=text]{    
+    padding: 15px;   
+    width: 365px;
+}
+
+input[type=submit]{
+    background-color: #9ACD32;
+    border: none;   
+    height: 55px;
+    
+}
+
+div#cs{
+    background-color: #eb3434;
+    padding: 8px;
+    height: 39px;
+    line-height: 2;
+}
+
+div#cs a{
+    
+    text-decoration:none;
+    color:  black;
+    font-size:18px;
+
+}
+
+h2.login{
+  font-size: 30px;
+    font-weight: 100;
+}
+
+.login div.border_bottom{
+    margin-bottom: 20px;
+    border-bottom: 4px solid #9ACD32;
+}
+
+p.error{
+    color: #737d16 ;
+    font-weight: bolder;
+}
+
+#signature img{
+        margin-top:10%;
+        width:60%;
+        margin-left:10%;
+    }
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 733px) {
+
+    form{
+        width: 60px;
+        padding: 20px;
+    }
+
+    .general{          
+        margin-right: 40%;
+    } 
+
+    input{
+        width: 200px; 
+        height:10px;
+        
+    }
+
+    input[type=text]{
+        width: 166px;
+        font-size: 15px;
+    }
+    
+    input[type=submit]{        
+        height: 44px;
+        color:  black;
+        font-size:15px;
+    }    
+
+    .login div.border_bottom{
+        border-bottom: 4px solid #9ACD32;
+        width:200px;
+    }
+
+    p.error{
+        color: #737d16 ;
+        font-weight: bolder;
+    } 
+    
+    #errorid {
+        width: 200px;
+        font-size: 15px;
+    } 
+    
+    #anularecibo{
+        width:200px;
+    }
+
+    div#cs{    
+        height:28px;
+        width:184px;
+        line-height:25px;
+    }
+
+    div#cs a{
+    
+        text-decoration:none;
+        color:  black;
+
+        font-size:15px;
+   
+
+    }
+    
+
+    /*SELECTORES RECIBO ANULADO CORRECTAMENTE*/
+    #signature img{
+        width:170%;
+        margin-left:100%;
+    }
+
+
+  
+}

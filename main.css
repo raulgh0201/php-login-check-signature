@@ -1,0 +1,101 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    margin:auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+div.general{
+   padding-top: 12%;
+}
+
+
+input{
+    font-size: 18px;
+    width: 400px;
+}
+
+input[type=text], input[type=password]{
+    
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    width: 365px;
+}
+
+input[type=submit]{
+    background-color: #9ACD32;
+    border: none;   
+    height: 55px;       
+}
+
+.login div.border_bottom{
+    margin-bottom: 20px;
+    border-bottom: 4px solid #9ACD32;
+}
+
+p.error{
+    color: #737d16 ;
+    font-weight: bolder;
+}
+
+
+#cliente h2{
+     font-size: 30px;
+     font-weight:100;
+ }
+
+.login div.border_bottom p {
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 733px) {
+   
+    form{
+        width: 40px;
+    }
+
+    .general{
+        margin-right: 50%;           
+     }
+ 
+    input{
+        font-size: 15px;
+        height:10px;
+       
+    }
+
+    input[type=text], input[type=password]{  
+        font-size: 15px; 
+        width: 165px;
+
+    }
+
+    input[type=submit]{     
+        width: 200px;    
+        height: 44px;
+         
+    }    
+
+    .login div.border_bottom{
+        
+        width:200px;
+    }
+
+    .login div.border_bottom img{
+        width:27%;
+    }
+    #errorid{
+        width:200px;
+        font-size:15px;
+    }
+
+  
+}
